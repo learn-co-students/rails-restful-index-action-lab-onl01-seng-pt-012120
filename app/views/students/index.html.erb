@@ -1,0 +1,9 @@
+<% if false %>
+ iterate over the list of students returned from the index action in the controller and display the appropriate information.
+ <% end %>
+
+<h1>Student Index Page</h1>
+
+<% @students.each do |student| %>
+  <h2><%= student.to_s %></h2>
+<% end %>
