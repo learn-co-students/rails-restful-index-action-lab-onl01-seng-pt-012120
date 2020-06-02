@@ -1,0 +1,11 @@
+<html>
+  <title>List of Students</title>
+  <body>
+    <h1>All Students</h1>
+    <% i = 1 %>
+    <% @students.each do |student| %>
+    <p><%= "#{i}. #{student}" %></p>
+    <% i += 1 %>
+    <% end %>
+  </body>
+</html>
